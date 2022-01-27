@@ -18,18 +18,6 @@
     "ariaRegionHeadingLevel" : {
       "type" : "JSON_LITERAL",
       "value" : "1"
-    },
-    "includeAriaHeading" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "type" : {
-      "type" : "JSON_LITERAL",
-      "value" : "section"
-    },
-    "ariaRole" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
     }
   },
   "eventMappings" : [ ],
@@ -126,18 +114,6 @@
                 "ariaRegionHeadingLevel" : {
                   "type" : "JSON_LITERAL",
                   "value" : "1"
-                },
-                "includeAriaHeading" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "type" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "section"
-                },
-                "ariaRole" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : ""
                 }
               },
               "eventMappings" : [ ],
@@ -401,14 +377,12 @@
                 "subHeadingValue" : {
                   "type" : "DATA_OUTPUT_BINDING",
                   "binding" : {
-                    "address" : [ "next_needit_form", "nowRecordCommonHeader", "primaryValue" ]
+                    "address" : [ "my_next_needit", "results", "0", "u_when_needed", "value" ]
                   }
                 },
                 "secondaryItems" : {
-                  "type" : "DATA_OUTPUT_BINDING",
-                  "binding" : {
-                    "address" : [ "next_needit_form", "nowRecordCommonHeader", "secondaryItems" ]
-                  }
+                  "type" : "JSON_LITERAL",
+                  "value" : null
                 },
                 "headerImageItem" : {
                   "type" : "JSON_LITERAL",
@@ -537,18 +511,6 @@
             "ariaRegionHeadingLevel" : {
               "type" : "JSON_LITERAL",
               "value" : "1"
-            },
-            "includeAriaHeading" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "type" : {
-              "type" : "JSON_LITERAL",
-              "value" : "section"
-            },
-            "ariaRole" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
             }
           },
           "eventMappings" : [ ],
@@ -609,18 +571,6 @@
                     "ariaRegionHeadingLevel" : {
                       "type" : "JSON_LITERAL",
                       "value" : "1"
-                    },
-                    "includeAriaHeading" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : false
-                    },
-                    "type" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "section"
-                    },
-                    "ariaRole" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
                     }
                   },
                   "eventMappings" : [ ],
@@ -752,18 +702,6 @@
                     "ariaRegionHeadingLevel" : {
                       "type" : "JSON_LITERAL",
                       "value" : "1"
-                    },
-                    "includeAriaHeading" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : false
-                    },
-                    "type" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : "section"
-                    },
-                    "ariaRole" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : ""
                     }
                   },
                   "eventMappings" : [ ],
@@ -1523,88 +1461,6 @@
     }
   },
   "readEvaluationMode" : "EAGER"
-}, {
-  "definition" : {
-    "id" : "dc6e87a5232200100e4bc50947bf654b",
-    "type" : "CLIENT_STATE"
-  },
-  "elementId" : "next_needit_form",
-  "elementLabel" : "Next NeedIt Form",
-  "eventMappings" : [ ],
-  "inputValues" : {
-    "table" : {
-      "type" : "JSON_LITERAL",
-      "value" : "x_58872_needit_needit"
-    },
-    "sysId" : {
-      "type" : "DATA_OUTPUT_BINDING",
-      "binding" : {
-        "address" : [ "my_next_needit", "results", "0", "sys_id", "value" ]
-      }
-    },
-    "actionConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "headerConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "ribbonConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "viewRuleConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "highlightedValueConfigId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "view" : {
-      "type" : "JSON_LITERAL",
-      "value" : "default view"
-    },
-    "forcedViewName" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "query" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "showActivityStreamInDetails" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "detailsContext" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "activityLogs" ],
-        "category" : "props"
-      }
-    }
-  },
-  "readEvaluationMode" : "EAGER"
-}, {
-  "definition" : {
-    "id" : "310332f997918110e32c746e6253af9f",
-    "type" : "TRANSFORM"
-  },
-  "elementId" : "add_user_to__text_string_1",
-  "elementLabel" : "Add User to  Text String 1",
-  "eventMappings" : [ ],
-  "inputValues" : {
-    "userFullName" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "user", "fullName" ],
-        "category" : "session"
-      }
-    }
-  },
-  "readEvaluationMode" : "EAGER"
 } ]</data>
         <dispatched_events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -1656,16 +1512,16 @@
         <schema_version>1.0.0</schema_version>
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-24 18:11:54</sys_created_on>
-        <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_by>Damien.Barriteau</sys_created_by>
+        <sys_created_on>2022-01-27 21:54:53</sys_created_on>
+        <sys_id>394ae2f197918110e32c746e6253af5e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_394ae2f197918110e32c746e6253af5e</sys_update_name>
         <sys_updated_by>Damien.Barriteau</sys_updated_by>
-        <sys_updated_on>2022-01-27 22:43:09</sys_updated_on>
+        <sys_updated_on>2022-01-27 21:54:55</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

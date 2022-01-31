@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="NeedIt Experience Config">c355fddd1b82301068dd5464604bcb92</app_config>
+        <description/>
+        <fields>table,sysid</fields>
+        <icon/>
+        <name>Record</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>record</route_type>
+        <screen_type display_value="Record">a1ae564397958510e32c746e6253af0f</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>Damien.Barriteau</sys_created_by>
+        <sys_created_on>2022-01-31 18:16:38</sys_created_on>
+        <sys_id>33ae5a4397958510e32c746e6253af6d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_33ae5a4397958510e32c746e6253af6d</sys_update_name>
+        <sys_updated_by>Damien.Barriteau</sys_updated_by>
+        <sys_updated_on>2022-01-31 18:16:58</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=33ae5a4397958510e32c746e6253af6d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>02f0346fdbc8c5109df22f17d4961905</instance_id>
+        <instance_name>cspdev</instance_name>
+        <name>sys_ux_app_route_33ae5a4397958510e32c746e6253af6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="NeedIt Experience Config">c355fddd1b82301068dd5464604bcb92</app_config><description/><fields>table,sysid</fields><icon/><name>Record</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>record</route_type><screen_type display_value="Record">a1ae564397958510e32c746e6253af0f</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>Damien.Barriteau</sys_created_by><sys_created_on>2022-01-31 18:16:38</sys_created_on><sys_id>33ae5a4397958510e32c746e6253af6d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Record</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_app_route_33ae5a4397958510e32c746e6253af6d</sys_update_name><sys_updated_by>Damien.Barriteau</sys_updated_by><sys_updated_on>2022-01-31 18:16:58</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=33ae5a4397958510e32c746e6253af6d"/></record_update>]]></payload>
+        <payload_hash>1802353706</payload_hash>
+        <record_name>Record</record_name>
+        <reverted_from/>
+        <source>f58b52b597518110e32c746e6253afd3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Damien.Barriteau</sys_created_by>
+        <sys_created_on>2022-01-31 18:16:58</sys_created_on>
+        <sys_id>a8ce5a4397958510e32c746e6253afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17eb15ab21f0000001</sys_recorded_at>
+        <sys_updated_by>Damien.Barriteau</sys_updated_by>
+        <sys_updated_on>2022-01-31 18:16:58</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>20ce5a43429585108b84041a2a238fc6</update_guid>
+        <update_guid_history>20ce5a43429585108b84041a2a238fc6:1802353706,f7ae5a436e958510befe8efded1c5b6e:1908741637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Damien.Barriteau</sys_created_by>
+        <sys_created_on>2022-01-31 18:23:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>2718eb50fa9547fe866d2c56395eb184</sys_id>
+        <sys_metadata>33ae5a4397958510e32c746e6253af6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_33ae5a4397958510e32c746e6253af6d</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_33ae5a4397958510e32c746e6253af6d">a8ce5a4397958510e32c746e6253afc6</sys_update_version>
+        <sys_updated_by>Damien.Barriteau</sys_updated_by>
+        <sys_updated_on>2022-01-31 18:23:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
